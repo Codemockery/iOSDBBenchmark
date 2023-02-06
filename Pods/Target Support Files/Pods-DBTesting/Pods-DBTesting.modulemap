@@ -1,0 +1,6 @@
+module Pods_DBTesting {
+  umbrella header "Pods-DBTesting-umbrella.h"
+
+  export *
+  module * { export * }
+}

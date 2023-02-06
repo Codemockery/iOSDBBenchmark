@@ -1,0 +1,24 @@
+Purpose
+This projects aims to output a standard result over DB operations so that it can be compared across different Databases.
+
+Benchmark Parameters over a predefined data size and type
+
+READ BENCHMARK
+Number of Read operations per second
+Number of Batch Read operations per second
+
+Multhreaded READ-READ
+This aims at starting two threads and reading data continously from respective database. The output would be operations per second.
+
+WRITE BENCHMARK
+Number of write operations per second
+Number of batch write operations per second
+
+Multithread Read-Write
+This test starts two threads where first thread does read operations while the second one writes and outputs the result in operations per second.
+
+Multithreaded Write Write
+This test starts two threads where both threads does write operations and outputs the result in operations per second.
+
+Initialization
+This aims to output average number of initializations per second.
